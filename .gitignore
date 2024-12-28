@@ -50,3 +50,24 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# CMake build directories
+cmake-build-*/
+build/
+debug/
+release/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+*.cmake
+compile_commands.json
+
+# IDE specific (since you seem to be using an IDE with CMake integration)
+.idea/
+.vscode/
